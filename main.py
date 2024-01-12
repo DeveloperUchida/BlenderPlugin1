@@ -15,5 +15,11 @@ def generate_terrain(width, height, scale):
     bpy.context.view_layer.objects.active = obj
     obj.select_set(True)
     
+    # エンターキーを押すとメッシュを編集モードへ
+    bpy.ops.object.mode_set(mode='EDIT')
+
+    # メッシュデータを取得
+    mesh = bpy.context.edit_object.data
+
     
     
