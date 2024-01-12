@@ -21,5 +21,8 @@ def generate_terrain(width, height, scale):
     # メッシュデータを取得
     mesh = bpy.context.edit_object.data
 
-    
+    # Bのメッシュオブジェクトを制作
+    bm = bmesh.new()
+
+    # テレインバーティクルを作成
     
