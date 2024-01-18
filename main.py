@@ -1,3 +1,8 @@
+bl_info = {
+    "name": "Simple Mesh Plugin",
+    "blender": (2, 80, 0),
+    "category": "Object",
+}
 import bpy
 import bmesh
 import random
